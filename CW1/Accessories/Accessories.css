@@ -1,0 +1,156 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+
+@font-face{
+  font-family: "PlayStationFont";
+  src: url(PlayStationFont.ttf);
+}
+
+.text_box{
+    position: center;
+    font-family: "PlayStationFont"; 
+    max-width: 500px;
+    max-height: 350px;
+    padding: 400px;
+    background: rgb(3, 12, 92, 0.5);
+    border-radius: 5px;
+    margin: 100px auto 0;
+  }
+  
+.image_1{
+  margin-top: -300px;
+  margin-left: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+
+.p1 p{
+  font-size: 20px;
+  font-family: "PlayStationFont";
+  margin-top: -75px;
+  margin-left: 0px;
+  color: white;
+  text-align: center;
+}
+
+.button_1{
+  text-align: center;
+}
+
+.button_1 button{
+  background-color: rgb(2, 53, 190, 0.85);
+  color: white;
+  padding: 24px 150px;
+  font-family: 'PlayStationFont';
+  display: inline-flex;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border:none;
+  margin-left: -650px; 
+  margin-top: 10px;
+}
+
+
+/*
+.image_2{
+  margin-top: -5px;
+  margin-left: 585px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+ 
+
+.p2 p{
+  font-size: 20px;
+  font-family: "PlayStationFont";
+  margin-top: -500px;
+  margin-left: 300px;
+  color: white;
+  text-align: center;
+}
+
+
+.button_2{
+  text-align: center;
+}
+
+.button_2 button{
+  background-color: rgb(2, 53, 190, 0.85);
+  color: white;
+  padding: 24px 150px;
+  font-family: 'PlayStationFont';
+  display: inline-flex;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border:none;
+  margin-left: 600px; 
+  margin-top: 10px;
+} 
+
+
+
+/*
+
+
+.image_3{
+  margin-top: 50px;
+  margin-left: -675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_4{
+  margin-top: -375px;
+  margin-left: 585px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1{
+  margin-top: -90px;
+  margin-left: 200px;
+  color: white
+}
+
+*/
+
+
+h1 {
+  font-size: 24px;
+  margin-top: -375px;
+  color: black;
+  text-align: left;
+  margin-left: -350px;
+
+}
+
+p {
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    margin-left: -350px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
