@@ -28,12 +28,49 @@ p{
   margin-top: -1px;
 }
 
-.button{
+.button_1{
   text-align: center;
   margin-top: 70px;
 }
 
-.button button{
+.button_1 button{
+  background-color: rgb(2, 53, 190, 0.85);
+  color: white;
+  padding: 24px 150px;
+  font-family: 'PlayStationFont';
+  display: inline-flex;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border:none;
+}
+
+.button_2{
+  text-align: center;
+  margin-top: 90px;
+  padding-left: 30px;
+}
+
+.button_2 button{
+  background-color: rgb(2, 53, 190, 0.85);
+  color: white;
+  padding: 24px 150px;
+  font-family: 'PlayStationFont';
+  display: inline-flex;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border:none;
+}
+
+.button_3{
+  text-align: center;
+  margin-top: 70px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.button_3 button{
   background-color: rgb(2, 53, 190, 0.85);
   color: white;
   padding: 24px 150px;
@@ -48,7 +85,7 @@ p{
 .text_box{
     position: center;
     max-width: 1400px;
-    height: 1775px;
+    height: 1300px;
     padding: 50px;
     background: rgba(3, 12, 92, 0.7);
     border-radius: 5px;
@@ -155,41 +192,6 @@ p{
 }
 
 .text_3 p{
-  font-size: 18px; 
-  font-family: "PlayStationFont";
-  text-align: left;
-  margin-left: 28px;
-}
-
-
-.container_4 {
-  width: 10000px;
-  overflow: hidden;
-}
-
-
-.container_4 img{
-  width: 584px;
-  height: 375px;
-  float: left;
-  margin-left: -5px;
-}
-
-.text_4{
-  float: left;
-}
-
-
-.text_4 h2{
-  font-size: 24px;
-  padding-left: -5px;
-  padding: -10px;
-  text-align: left;
-  margin-left: 28px;
-  font-family: "PlayStationFont";
-}
-
-.text_4 p{
   font-size: 18px; 
   font-family: "PlayStationFont";
   text-align: left;
