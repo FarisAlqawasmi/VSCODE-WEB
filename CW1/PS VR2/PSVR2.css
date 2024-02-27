@@ -18,20 +18,11 @@ body {
     background: rgba(256, 256, 256, 0.6);
     border-radius: 10px;
     margin: 100px auto 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    margin-top: 750px;
->>>>>>> 2caa5cc5c206e49d9869cd2a38566992f9421794
-=======
-    margin-top: 750px;
->>>>>>> 2caa5cc5c206e49d9869cd2a38566992f9421794
     text-align: left;
     font-family: 'PlayStationFont';
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .image{
     display: flex;
     justify-content: center;
@@ -55,23 +46,12 @@ button{
 }
 
 
-h1 {
-    text-align: center;
-	font-size: 32px;
-    color: black;
-    margin-top: -40px;
-=======
-=======
->>>>>>> 2caa5cc5c206e49d9869cd2a38566992f9421794
+
 h1 {
     margin-top: -40px;
 	font-size: 24px;
     color: black;
-  ;
-<<<<<<< HEAD
->>>>>>> 2caa5cc5c206e49d9869cd2a38566992f9421794
-=======
->>>>>>> 2caa5cc5c206e49d9869cd2a38566992f9421794
+    text-align: center;
 }
 
 p {

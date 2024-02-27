@@ -46,32 +46,17 @@ button{
 
 h1 {
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   color: black;
   margin-top: -40px;
 }
 
 
 p {
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     text-align: left;
-    position: center;
-    font-family: "PlayStationFont";
-    max-width: 550px;
-    padding: 50px;
-    background: rgba(256, 256, 256, 0.5);
-    border-radius: 10px;
-    margin: 100px auto 0;
-    margin-right: 1000px;
-    text-align: left;
-}
 
-h1 {
-	font-size: 24px;
-  margin-top: -40px;
-  font-family: 'Times New Roman', Times, serif ; 
-  color: black;
 }
 
 
