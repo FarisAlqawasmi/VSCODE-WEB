@@ -1,0 +1,464 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "PlayStationFont";
+    src: url(PlayStationFont.ttf);
+}
+
+
+* {
+    box-sizing: content-box;
+}
+
+
+.container_1 h1 {
+  font-size: 38px;
+  margin-top: -4px;
+  margin-left: 575px;
+  font-family: "PlayStationFont";
+  color: white;
+}
+
+
+.container_4 h1 {
+  font-size: 38px;
+  margin-top: -4px;
+  margin-left: 600px;
+  font-family: "PlayStationFont";
+  color: white;
+}
+
+.container_7 h1 {
+  font-size: 38px;
+  margin-top: -4px;
+  margin-left: 600px;
+  font-family: "PlayStationFont";
+  color: white;
+}
+
+
+.text_box {
+    position: center;
+    max-width: 1400px;
+    height: 1850px;
+    padding: 50px;
+    background: rgba(3, 12, 92, 0.7);
+    border-radius: 5px;
+    float: left;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+
+.container_1 {
+    width: 10000px;
+    overflow: hidden;
+}
+
+
+.container_1 img {
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-top: 140px;
+    margin-left: 40px;
+    border: 1px solid white;
+}
+
+.text_1 {
+    float: left;
+}
+
+
+.text_1 h2 {
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: -240px;
+    margin-top: -20px;
+    font-family: "PlayStationFont";
+    color: white;
+}
+
+.button_1 {
+    text-align: center;
+    margin-top: 380px;
+    margin-left: -350px;
+}
+
+.button_1 button {
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.container_2 img{
+  width: 350px;
+  height: 316px;
+  float: left;
+  margin-left: 525px;
+  margin-top: -412px;
+  border: 1px solid white;
+}
+
+.text_2{
+  float: left;
+}
+
+.text_2 h2{
+  font-size: 24px;
+  padding-left: -5px;
+  padding: -10px;
+  text-align: left;
+  margin-left: 660px;
+  margin-top: -468px;
+  font-family: "PlayStationFont";
+  color: white;
+}
+ 
+  .button_2{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: 560px;
+  }
+  
+  .button_2 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  
+  .container_3 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 1010px;
+    margin-top: -412px;
+    border: 1px solid white;
+  }
+  
+  .text_3{
+    float: left;
+  }
+  
+
+  .text_3 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: 1125px;
+    margin-top: -468px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+ .button_3{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: 1050px;
+  }
+  
+  .button_3 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  } 
+
+  .container_4 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 140px;
+    border: 1px solid white;
+  }
+  
+  .text_4{
+    float: left;
+  }
+  
+
+  .text_4 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: -290px;
+    margin-top: -25px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+ .button_4{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: -350px;
+  }
+  
+  .button_4 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .container_5 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 70px;
+    border: 1px solid white;
+  }
+  
+  .text_5{
+    float: left;
+  }
+  
+
+  .text_5 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: -230px;
+    margin-top: 13px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+  .button_5{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: -340px;
+  }
+  
+  .button_5 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .container_6 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 70px;
+    border: 1px solid white;
+  }
+  
+  .text_6{
+    float: left;
+  }
+  
+
+  .text_6 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: 1100px;
+    margin-top: -375px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+  .button_6{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: 1040px;
+  }
+  
+  .button_6 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+
+
+  .container_7 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 150px;
+    border: 1px solid white;
+  }
+  
+  .text_7{
+    float: left;
+  }
+  
+
+  .text_7 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: -280px;
+    margin-top: -10px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+   .button_7{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: -350px;
+  }
+  
+  .button_7 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .container_8 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 80px;
+    border: 1px solid white;
+  }
+  
+  .text_8{
+    float: left;
+  }
+  
+
+  .text_8 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: -250px;
+    margin-top: 27px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+    .button_8{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: -350px;
+  }
+  
+  .button_8 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }    
+
+  .container_9 img{
+    width: 350px;
+    height: 316px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 80px;
+    border: 1px solid white;
+  }
+  
+  .text_9 {
+    float: left;
+  }
+  
+
+  .text_9 h2{
+    font-size: 24px;
+    padding-left: -5px;
+    padding: -10px;
+    text-align: left;
+    margin-left: 600px;
+    margin-top: -370px;
+    font-family: "PlayStationFont";
+    color: white;
+  }
+
+    .button_9{
+    text-align: center;
+    margin-top: 380px;
+    margin-left: 600px;
+  }
+  
+  .button_9 button{
+    background-color: rgb(2, 53, 190, 0.85);
+    color: white;
+    padding: 16px 100px;
+    font-family: 'PlayStationFont';
+    display: inline-flex;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }    
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
