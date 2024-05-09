@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  
+  @font-face{
+    font-family: "PlayStationFont";
+    src: url(PlayStationFont.ttf);
+  }
+  
+  
+  * {
+    box-sizing: content-box;
+   }
+  
+  h2{
+    color: white;
+    font-family: "PlayStationFont";
+    margin-top: -5px;
+  }
+  
+  p{
+    color: white;
+    font-family: "PlayStationFont";
+    line-height: 1;
+    margin-top: -1px;
+  }
+  
+  label {
+    color: white;
+    font-family: "PlayStationFont";
+    margin-top: -1px;
+  }
+
+  .text_box{
+      position: center;
+      width: 1200px;
+      height: 900px;
+      padding: 50px;
+      background: rgba(3, 12, 92, 0.7);
+      border-radius: 5px;
+      float: left;
+      margin: 100px auto 0;
+      overflow: hidden;
+    }
+  
+  
+  .container_1 {
+    width: 10000px;
+    overflow: hidden;
+  }
+  
+  
+  
+  #background-video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+  }
+
+
+  .contact-container {
+    background-color: rgba(47, 47, 47, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 750px;
+}
+
+.playstation-logo {
+    width: 70px;
+    height: 70px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 550px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+  width: 1100px; /* Adjust this width as needed */
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-family: 'PlayStationFont', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#responseMessage {
+    color: #28a745;
+    font-weight: bold;
+    display: none;
+}

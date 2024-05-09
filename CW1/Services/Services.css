@@ -1,0 +1,152 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+@font-face{
+  font-family: "PlayStationFont";
+  src: url(PlayStationFont.ttf);
+}
+
+
+* {
+  box-sizing: content-box;
+ }
+
+h2{
+  color: black;
+  margin-top: -5px;
+  font-family: "PlayStationFont";
+  font-size: 28px
+}
+
+p{
+  color: black;
+  line-height: 1;
+  margin-top: -1px;
+  font-family: "PlayStationFont";
+  font-size: 20px;
+}
+
+
+.text_box{
+  position: center;
+  max-width: 1400px;
+  height: 1000px;
+  padding: 50px;
+  background: rgba(3, 12, 92, 0.7);
+  border-radius: 5px;
+  float: left;
+  margin: 100px auto 0;
+  overflow: hidden;
+}
+
+
+.container_1 {
+  width: 10000px;
+  overflow: hidden;
+}
+
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    width: 200px;
+}
+
+.tab:hover {
+    background-color: #444;
+}
+
+.active-tab {
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+    color: #000;
+}
+
+.plan-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-top: -1px;
+}
+
+.plan-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.plan-card.active {
+    border-color: #007bff;
+    background-color: #e9f7ff;
+}
+
+.plan-card input {
+    margin-right: 10px;
+}
+
+.d-none {
+    display: none;
+}
+
+.step {
+    margin-bottom: 30px;
+}
+
+.step h2 {
+    font-size: 1.5em;
+}
+
+.step p {
+    font-size: 1em;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1em;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1em;
+}
+

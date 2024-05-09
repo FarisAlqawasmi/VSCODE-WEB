@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  
+  @font-face{
+    font-family: "PlayStationFont";
+    src: url(PlayStationFont.ttf);
+  }
+  
+  
+  * {
+    box-sizing: content-box;
+   }
+  
+  h2{
+    color: black;
+    margin-top: -5px;
+    font-family: "PlayStationFont";
+    font-size: 22px
+  }
+  
+  p{
+    color: black;
+    line-height: 1;
+    margin-top: -1px;
+    font-family: "PlayStationFont";
+    font-size: 20px;
+  }
+  
+
+  .text_box{
+      position: center;
+      max-width: 1400px;
+      height: 1100px;
+      padding: 50px;
+      background: rgba(256, 256, 256, 0.6);
+      border-radius: 5px;
+      float: left;
+      margin: 100px auto 0;
+      overflow: hidden;
+    }
+  
+  
+  .container_1 {
+    width: 10000px;
+    overflow: hidden;
+  }
+  
+  
+  
+  #background-video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+  }
